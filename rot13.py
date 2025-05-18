@@ -1,6 +1,6 @@
 class Rot13():
 	def decode(self, ct):
-		l=list(ct)
+		l=list(ct.upper())
 		arr=[]
 		for x in l:
 			o=(ord(x))
